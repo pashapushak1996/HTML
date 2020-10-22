@@ -36,6 +36,9 @@ body{
     display: flex;
     align-items: center;
 }
+.right:nth-child(1){
+    padding-right: 10px;
+}
 .button{
     margin-right: 5px;
     border: solid 5px white;
