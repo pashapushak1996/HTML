@@ -1,4 +1,61 @@
 body{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
+
+                 /*ВЕРХНЄ МЕНЮ*/
+.upmenu{
+    font-family: 'Trispace', sans-serif;
+    font-weight: 700;
+    font-size:10px;
+    margin: 0px 180px 0px 180px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    align-content:center;
+}
+
+           /*ЦЕТРАЛЬНИЙ БЛОК*/
+
+.center{
+    color: white;
+    display: flex;
+    height: 120px;
+    background: red;
+    justify-content: space-between;
+    align-items: center;
+}
+.bigTxt{
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.right{
+    display: flex;
+    align-items: center;
+}
+.button{
+    margin-right: 5px;
+    border: solid 5px white;
+    border-radius: 15px;
+}
+
+
+
+        /*НИЖНЄ МЕНЮ*/
+
+
+.downmenu{
+    font-family: 'Trispace', sans-serif;
+    font-weight: 700;
+    font-size:15px;
+    margin: 0px 120px 0px 120px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    align-content:center;
+}
+
+
