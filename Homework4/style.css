@@ -27,6 +27,10 @@ body{
     justify-content: space-between;
     align-items: center;
 }
+
+.center > .right > div{
+    padding-right: 15px;
+}
 .bigTxt{
     font-family: 'Oswald', sans-serif;
     display: flex;
