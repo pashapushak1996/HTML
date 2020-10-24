@@ -82,6 +82,9 @@ span:hover {
     border-radius: 30px;
     padding: 8px;
 }
+.button:hover{
+    color: gainsboro;
+}
 
 /*LOGO*/
 
