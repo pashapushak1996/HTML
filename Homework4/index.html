@@ -5,12 +5,13 @@
     <meta charset="UTF-8">
     <title>Flex</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 </head>
 
 <body>
-    <div class="container">
+    <header>
         <ul class="upmenu">
-            <li style="color: red"><a href="https://www.pravda.com.ua/">ПОЛІТИКА</a></li>
+            <li><a href="https://www.pravda.com.ua/">ПОЛІТИКА</a></li>
             <li><a href="https://www.epravda.com.ua/">ЕКОНОМІКА</a></li>
             <li><a href="https://life.pravda.com.ua/">ЖИТТЯ</a></li>
             <li><a href="https://www.eurointegration.com.ua/">ЄВРОПА</a></li>
@@ -21,30 +22,95 @@
             <li><a href="https://dostup.pravda.com.ua/">ДОСТУП</a></li>
             <li><a href="https://sos.pravda.com.ua/">ПРАВДА SOS</a></li>
         </ul>
-        <div class="Logo">
-            <div>Усі розділи</div>
-            <div class="bigTxt">
-                <div style="font-size: 40px ;">УКРАЇНСЬКА ПРАВДА</div>
-                <div style="font-size: 13px">ЗАСНОВАНА ГЕОРГІЄМ ГОНГАДЗЕ У 2000 РОЦІ</div>
+        <div class="header-logo">
+            <div class="left">
+                <i class="fas fa-align-justify"></i>
+                <div>Усі розділи</div>
+            </div>
+            <div class="logo">
+                <div class="bigLogo">УКРАЇНСЬКА ПРАВДА</div>
+                <div class="smallLogo">ЗАСНОВАНА ГЕОРГІЄМ ГОНГАДЗЕ У 2000 РОЦІ</div>
             </div>
             <div class="right">
-                <div>УКР/РУС</div>
+                УКР/РУС
                 <div class="button">КЛУБ УП</div>
             </div>
         </div>
         <ul class="downmenu">
-            <li style="color: red"><a href="">ГОЛОВНА</a></li>
-            <li><a href="">НОВИНИ</a></li>
-            <li><a href="">ПУБЛІКАЦІЇ</a></li>
-            <li><a href="">КОЛОНКИ</a></li>
-            <li><a href="">ІНТЕРВЮ</a></li>
-            <li><a href="">ГРАФІКА</a></li>
-            <li><a href="">ФОТО\ВІДЕО</a></li>
-            <li><a href="">БЛОГИ</a></li>
-            <li><a href="">ПОДКАСТИ</a></li>
-            <li><a href="">АРХІВ</a></li>
+            <li class="downmenu-item"><a href="">ГОЛОВНА</a></li>
+            <li class="downmenu-item"><a href="">НОВИНИ</a></li>
+            <li class="downmenu-item"><a href="">ПУБЛІКАЦІЇ</a></li>
+            <li class="downmenu-item"><a href="">КОЛОНКИ</a></li>
+            <li class="downmenu-item"><a href="">ІНТЕРВЮ</a></li>
+            <li class="downmenu-item"><a href="">ГРАФІКА</a></li>
+            <li class="downmenu-item"><a href="">ФОТО\ВІДЕО</a></li>
+            <li class="downmenu-item"><a href="">БЛОГИ</a></li>
+            <li class="downmenu-item"><a href="">ПОДКАСТИ</a></li>
+            <li class="downmenu-item"><a href="">АРХІВ</a></li>
         </ul>
+    </header>
+    <div class="contentcovid">
+        <span>Covid 19 в Україні:</span>
+        <div class="covid-19">
+            <div class="boxcovid">
+                Підтверджені:
+                <div>239745
+                    <img src="image/covid.jpg" alt="">
+                </div>
+
+            </div>
+            <div class="boxcovid">
+                Активні:
+                <div>189755
+                    <img src="image/covid.jpg" alt="">
+                </div>
+            </div>
+            <div class="boxcovid">
+                Вилікувалось:
+                <div>149753
+                    <img src="image/covid.jpg" alt="">
+                </div>
+
+            </div>
+            <div class="boxcovid">
+                Померло:
+                <div>1355
+                    <img src="image/covid.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="covid-info">Всього проведено <b>2991893</b> тести. Дані МОЗ України. Оновлення: 24.10.2020 08:52</div>
+        <span>дивіться на карті</span>
     </div>
+    <div class="main-boxnews">
+        <div class="second-boxnews">
+            <div class="boxnews">
+                <img src="image/news1.jpg" alt="">
+                Кличко заразився коронавірусом
+            </div>
+            <div class="boxnews">
+                <img src="image/news1.jpg" alt="">
+                Карабах:Азейбарджан каже про наступ по всій лінії фронту
+            </div>
+            <div class="boxnews">
+                <img src="image/news1.jpg" alt="">
+                Кінотеатрам дозволили працювати в "червоній зоні карантину"
+            </div>
+            <div class="boxnews-list">
+                <div class="list-item"><span class="smalltxt">фото,оновлено</span>Арахамія знайшов під колесом авто пристрій стеження</div>
+                <div class="list-item"><span class="smalltxt">фото</span>Опитування від Зеленського: стало відомо, як будуть виглядати і працювати інтерв'юери</div>
+                <div class="list-item">Четверта церква визнала автокефалію ПЦУ</div>
+                <span>Усі новини...</span>
+            </div>
+        </div>
+
+        <div class="second-boxnews">
+        <div><img src="image/news2.jpg" alt="">
+        <p>У Чернівецькій області 17 людей повторно перехворіли на коронавірус", – головна санлікарка Буковини</p>
+        </div>
+        </div>
+    </div>
+
 </body>
 
 </html>

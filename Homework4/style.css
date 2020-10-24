@@ -1,12 +1,23 @@
-body {
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@800&display=swap"rel="stylesheet" > * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
 }
-.container{
-    max-width: 1080px;
-    margin: 0 auto;
+
+header {
+    box-sizing: border-box;
 }
+
+span {
+    text-transform: uppercase;
+    color: rgb(184 8 28);
+}
+
+span:hover {
+    cursor: pointer
+}
+
 /*ВЕРХНЄ МЕНЮ*/
 .upmenu {
     padding: .5em;
@@ -17,67 +28,219 @@ body {
     justify-content: space-around;
     align-content: center;
 }
-.upmenu>li>a{
+
+.upmenu > li > a {
     color: black;
-    font-family: 'Trispace', sans-serif;
     font-weight: 700;
-    font-size: 10px;
+    font-size: 11px;
     text-decoration: none;
+}
+
+.upmenu a:hover {
+    color: red;
 }
 
 /*ЦЕТРАЛЬНИЙ БЛОК*/
 
-.Logo {
+.header-logo {
     color: white;
     display: flex;
+    max-width: 100%;
     width: 100%;
-    height: 100px;
-    background: red;
-    justify-content: space-around;
+    height: 87px;
+    background: rgb(118 1 24);
+    font-weight: 500;
+    text-transform: uppercase;
+    justify-content: space-between;
     align-items: center;
 }
 
-.center > .right > div {
+.left {
+    cursor: pointer;
+    margin-left: 10px;
+    display: flex;
+}
+
+.left i {
     padding-right: 15px;
 }
 
-.bigTxt {
-    font-family: 'Oswald', sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 .right {
+    cursor: pointer;
     display: flex;
     align-items: center;
 }
 
 .button {
+    box-sizing: border-box;
+    background-color: rgb(184 8 28);
     margin-left: 20px;
     margin-right: 5px;
-    border: solid 5px white;
-    border-radius: 15px;
+    border: solid 3px white;
+    border-radius: 30px;
+    padding: 8px;
 }
 
+/*LOGO*/
+
+.logo {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bigLogo {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.smallLogo {
+    font-size: 14px;
+}
 
 
 /*НИЖНЄ МЕНЮ*/
 
 
 .downmenu {
-    padding: .5em;
-    margin: 0px 120px 0px 120px;
+    padding: .5em 0 .5em 0;
+    margin: 0px;
+    border-bottom: #e3e3e3 1px solid;
     list-style: none;
+    width: 100%;
     box-sizing: border-box;
     display: flex;
     justify-content: space-around;
     align-content: center;
 }
-.downmenu>li>a{
+
+.downmenu-item {
+    padding: 0 8px 0 8px;
+}
+
+.downmenu-item > a {
     color: black;
-    font-family: 'Trispace', sans-serif;
-    font-weight: 700;
+    font-weight: 800;
     font-size: 15px;
     text-decoration: none;
+}
+
+.downmenu-item a:hover {
+    color: red;
+}
+
+                                                                     /*КОНТЕНТ*/
+.contentcovid {
+    font-size: 20px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    color: rgb(184 8 28);
+}
+
+.contentcovid > span {
+    display: block;
+    padding-bottom: 10px;
+}
+
+
+.covid-19 {
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+
+.boxcovid {
+    color: black;
+    width: 25%px;
+    height: 80px;
+    border: 1px solid black;
+
+}
+
+.boxcovid > div {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.boxcovid:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.covid-info {
+    color: black;
+    font-size: 11px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+                                                        /*BOXNEWS*/
+
+
+
+
+.main-boxnews {
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.second-boxnews {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 400px;
+}
+
+.boxnews {
+    padding-right: 10px;
+    width: 290px;
+    height: 200px;
+    font-size: 15px;
+    font-weight: 800;
+}
+.boxnews:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.boxnews-list {
+    display: flex;
+    flex-direction: column;
+    width: 307px;
+    height: 200px;
+}
+
+.smalltxt {
+    font-size: 11px;
+    background: gray;
+    border: 1px solid green;
+}
+
+.list-item {
+    width: 100%;
+    height: 33%;
+    font-size: 17px;
+    font-weight: 700;
+    border-bottom: 1px solid gray;
+}
+
+.list-item:hover {
+    cursor: pointer;
+    color: red;
+}
+                          /*right-boxnews*/
+.second-boxnews img{
+    width: 100%;
+}
+.second-boxnews>div>p{
+    font-size:20px;
+    font-weight: 800;
+}
+.second-boxnews>div>p:hover{
+    cursor: pointer;
+    color: red;
 }
