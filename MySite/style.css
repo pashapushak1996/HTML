@@ -110,5 +110,9 @@ background-color: #998675;
 margin-top: 50px;
 padding: 21px 30px 21px 30px;
 }
+.Button-center:hover{
+    cursor: pointer;
+    color: gainsboro;
+}
 
 
