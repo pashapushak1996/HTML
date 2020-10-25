@@ -27,7 +27,7 @@ div{
     font-family: 'Fira Sans', sans-serif;
 }
 
-/*ВЕРХНЄ МЕНЮ*/
+                                                                     /*ВЕРХНЄ МЕНЮ*/
 .upmenu {
     padding: .5em;
     margin: 0px 180px;
@@ -49,7 +49,7 @@ div{
     color: red;
 }
 
-/*ЦЕТРАЛЬНИЙ БЛОК*/
+                                                           /*ЦЕТРАЛЬНИЙ БЛОК*/
 
 .header-logo {
     color: white;
@@ -143,7 +143,7 @@ div{
     color: red;
 }
 
-/*КОНТЕНТ*/
+                                                                 /*КОНТЕНТ*/
 
 
 .contentcovid {
@@ -191,7 +191,7 @@ div{
     margin-bottom: 10px;
 }
 
-/*BOXNEWS*/
+                                                               /*BOXNEWS*/
 
 
 
@@ -249,7 +249,11 @@ div{
     color: red;
 }
 
-/*right-boxnews*/
+                                                     /*RIGHT-BOXNEWS*/
+
+
+
+
 .second-boxnews img {
     width: 100%;
 }
