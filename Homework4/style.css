@@ -197,13 +197,14 @@ div{
 
 
 .main-boxnews {
-    padding-bottom: 40px;
+    padding-bottom: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .second-boxnews {
+    padding-bottom: 30px;
     display: flex;
     flex-wrap: wrap;
     width: 50%;
@@ -211,7 +212,7 @@ div{
 }
 
 .boxnews {
-    padding-right: 10px;
+    padding: 0 20px;
     width: 290px;
     height: 200px;
     font-size: 13px;
@@ -224,6 +225,7 @@ div{
 }
 
 .boxnews-list {
+    padding-left: 20px;
     display: flex;
     flex-direction: column;
     width: 307px;
