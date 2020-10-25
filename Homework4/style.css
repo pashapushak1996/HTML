@@ -280,21 +280,22 @@ div{
     display: flex;
     flex-direction: column;
     border-top: 1px solid red;
-    width: 30%;
+    width: 25%;
     margin-right: 20px;
 }
 
 .left-nav > div {
+    border-bottom: 1px solid gray;
     font-weight: 300;
     font-size: 14px;
-    padding-top: 10px;
+    padding: 10px;
     font-family: 'Fira Sans', sans-serif;
 }
 
 .right-nav-first {
     display: flex;
     flex-direction: column;
-    width: 35%;
+    width: 40%;
     border-top: 1px solid red;
 }
 
@@ -302,7 +303,7 @@ div{
     padding-top: 26px;
     display: flex;
     flex-direction: column;
-    width: 35%;
+    width: 40%;
     border-top: 1px solid red;
 }
 
