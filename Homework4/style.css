@@ -295,6 +295,7 @@ div{
 }
 
 .right-nav-second {
+    padding-top: 26px;
     display: flex;
     flex-direction: column;
     width: 35%;
